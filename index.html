@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="images/drizzle.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+   <div id="outer" align="center">
+    <h2>Weather App</h2>
+    <input type="text" id="city">
+    <button onclick="weather()">
+        <img src="images/search.png" alt="">
+    </button>
+    <br>
+    <img src="images/clear.png" id="img">
+        <br>
+        <h2 id="cn">Lucknow</h2>
+        <span id="tp">Temp-30℃</span>
+        <div id="bottom">
+            <div id="left">
+                <img src="images/wind.png">
+            <p id="ws">Wind Speed - 7km/hr</p>
+            </div>
+                <div id="right">
+                <img src="images/humidity.png" alt="">
+                <p id="hs">Humidity -20%</p>
+                </div>
+            </div>
+
+        </div>
+   </div>
+   <script src="js/script.js"></script> 
+</body>
+</html>
